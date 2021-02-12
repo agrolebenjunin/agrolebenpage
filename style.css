@@ -1,0 +1,621 @@
+/* Estilos Generales */
+
+.clima {
+    border-radius: 5px;
+    box-shadow: -5px -5px 5px #999;
+    width: fit-content;
+  }
+
+  .clima-imagen {
+      border-radius: 5px;
+  }
+
+  .datasos {
+    margin-top: 15%;
+    margin-left: 0px;
+    margin-right: auto;
+    width:160px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.4);
+    box-shadow: -5px -5px 5px #999;
+  
+  }
+
+  .dt {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .dt-tt{
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.25);
+    height: 30px;
+    color: #000;
+    margin-bottom: 0px;
+  }
+  
+  .dt-clv{
+    margin-left: 35px;
+    color: #000;
+    font-style: oblique;
+    font-size: 16px;
+    margin-bottom: 0px;
+    
+  
+  }
+  
+  .dt-vl {
+    margin-top: 2px;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  
+  hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+/* Estilos del slider en la pagina principal */
+  .bg-light {
+    background-color: white !important;
+  }
+  
+  div.bx-wrapper {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  /* Estilos de los logos de proveedores en la pagina principal */
+
+  .Prod-text{
+    display: inline-flex;
+    margin-left: 25px;
+  }
+
+  .productos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 110%;
+  }
+  
+  .linea-innoba {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  
+  .logo-card {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.4);
+    border-style: solid;
+    width: fit-content;
+    height: auto;
+    box-shadow: -5px -5px 5px #999;
+  }
+  
+  .logo-card:hover{
+    box-shadow: -5px -5px 5px rgb(37, 37, 80);
+  }
+  
+  .logo-logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  .logo-2 {
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .logo-2:hover{
+    width: 110px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(240, 240, 240);
+  
+  }
+  
+  .otras-lineas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: auto;
+  }
+
+
+   /* Estilos de la pagina de contacto */
+
+   .contacto-columnas {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .tarjetas {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 25px;
+  }
+  
+  .cont-tarj-der {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    float: left;
+    margin-left: 25%;
+  }
+  
+  .mapa {
+    width: fit-content;
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(109, 107, 139, 0.363);
+    border-radius: 2px;
+    box-shadow: -5px -5px 5px grey;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+  }
+
+  
+  
+  .tarjeta {
+    font-size: 12px;
+    float: left;
+    margin-left: 0px;
+  }
+  .cont-tarj {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    float: left;
+  }
+  
+  .icon-tarj {
+    margin-top: 5px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    width:178;
+    height: auto;
+    margin-right: 0px;
+  }
+  
+  i {
+    margin-right: 0px;
+  }
+
+  .descripcion {
+    font-size: 30;
+    text-align: center;
+    align-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 25pt;
+  }
+  
+  .foto {
+    box-shadow: -5px -5px 5px #999;
+    border-radius: 10px;
+    background-image: url(Imagenes/DSC00308-1024x683.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin: 10px;
+    width: auto;
+    height: 300px;
+  }
+  
+  .form-consulta {
+    max-width: 500px;
+    background: #eee;
+    padding: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .campo-form {
+    width: 100%;
+    height: 36px;
+    margin: 2px 0 6px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+  }
+  label span {
+    color: #f00;
+  }
+  textarea {
+    min-height: 150px !important;
+    max-height: 150px;
+  }
+  .btn-form {
+    display: inline-block;
+    border: 0;
+    background: #000;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 20px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 15%;
+  }
+  .btn-form:hover {
+    background: #444;
+  }
+
+/* Css del formulario de contacto */
+
+.contactoredes{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: rgba(22, 25, 59, 0.199);
+  box-shadow: -5px -5px 5px rgba(56, 56, 56, 0.438);
+  padding-top: 2%;
+  background-color: white ;
+  border-style: solid;
+}
+
+
+
+.camp {
+  margin: 10px 0px;
+}
+.i-f {
+  width: 15px;
+
+}
+
+.i-ta {
+  width: 19px;
+  padding: 0px 0px;
+
+}
+input {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  width: 91%;
+  border-radius: 5px;
+  border-width: 1px;
+  
+}
+
+textarea {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.div-boton {
+  width: 20%;
+  float: right;
+  margin-right: 5%;
+}
+
+.boton {
+  box-shadow: -5px -5px 5px rgba(56, 56, 56, 0.438);
+  background-color: white;
+  border-width: 1px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+
+}
+
+.img-nosotros {
+  width: 80%;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  box-shadow: -5px -5px 5px grey;
+  border-style: solid;
+
+}
+
+.novedades {
+  width: 80%;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  box-shadow: -5px -5px 5px grey;
+  border-style: solid;
+}
+
+.novedad {
+  width: 98%;
+  max-height: 150px;
+  border-radius: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  box-shadow: -5px -5px 5px grey;
+  border-style: solid;
+  overflow: hidden;
+  
+}
+  
+.separador {
+  border-top: rgba(22, 25, 59, 0.199);
+  border-top-style: groove;
+  border-top-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 25px;
+}
+
+.col-md-2 {
+  border-right: solid;
+  border-right: rgba(22, 25, 59, 0.199);
+  border-right-style: groove;
+  border-right-width: 2px;
+}
+
+.redes {
+  display: flex;
+  margin-top: 20px;
+  color: rgb(26, 26, 26);
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 36px;
+}
+
+.bxslider li {
+  float:left;
+}
+.links{
+  height:fit-content;
+  width: fit-content;
+  display:block;
+  z-index:1000;
+  background-color: red;
+  position: absolute;
+}
+
+footer {
+  display: none;
+}
+
+.separador-ft {
+  display: none;
+}
+
+.redesbig {
+  display: block;
+}
+
+.redessmall {
+  display: none;
+}
+.cabeceraproductos {
+  margin-left: 10%;
+}
+
+@media (max-width: 700px) {
+
+  .redesbig {
+    display: none;
+  }
+
+  .redessmall {
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 15px;
+  
+  }
+
+  .co {
+    width: fit-content;
+  }
+  .co-2 {
+    width: fit-content;
+    margin-left: 10%;
+  }
+  footer {
+    display:block;
+  }
+  .separador-ft {
+    display: block;
+    border-top: rgba(22, 25, 59, 0.199);
+    border-top-style: groove;
+    border-top-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 5px;
+  }
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  .mainlogo {
+    width: 100px;
+    height: auto;
+  }
+
+  .col-md-2{
+    display: none;
+  }
+  .innobalogo {
+    width: 150px;
+    height: auto;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .Prod-text {
+    font-size: 10px;
+  }
+
+  .espaciadoinnoba {
+    display: none;
+  }
+  .linea-innoba {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .logo-card {
+    margin: 5px;
+    margin-left: 15px;
+  }
+
+  .logo-logo {
+    width: 50px;
+  }
+
+  .logo-2 {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .logo-2:hover{
+    width: 50px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(240, 240, 240);
+  
+  }
+  
+  .otras-lineas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: auto;
+  }
+ 
+  .logo-2-ch {
+    margin-left: 70%;
+  }
+
+  .logo-2-ch:hover{
+    width: 50px;
+    height: auto;
+    margin-left: 70%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(240, 240, 240);
+  
+  }
+
+  .separador-2 {
+    border-top: rgba(22, 25, 59, 0.199);
+    border-top-style: groove;
+    border-top-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 1px;
+  }
+
+  .datasos-ch {
+    width: 88px;
+    height: 31px;
+    font-size: 8px;
+    margin-top: 5px;
+  }
+
+
+  .dt-tt {
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+    height: fit-content;
+    background-color: rgba(39, 39, 39, 0.692);
+  }
+  
+.dt-vl {
+        font-size: 12px;
+        margin: 0px;
+        padding-left: 30%;
+        background-color: rgba(151, 142, 142, 0.692);
+      }
+  
+.fotlogo{
+    width: 90px;
+    height: auto;
+    margin-left: 40%;
+    margin-right: auto;
+  }
+
+  .climafot {
+    margin-bottom: 50px;
+  }
+
+.sinmargen {
+  margin-left: 8%;
+}
+
+.margensi {
+  margin-left: 50%;
+}
+
+.co-gr {
+  width: 100%;
+}
+
+.contactoredes {
+  margin-left: 12%;
+  width: 80%;
+}
+.col-11 {
+  margin-left: 10px;
+}
+
+
+
+
+
+  }

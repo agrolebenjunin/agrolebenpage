@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agro-leben junin</title>
+
+  <!--CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+  <!-- CSS del Slider -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+
+  <!-- CSS Propio -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- CSS Fuente-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+
+  <!-- Scripts varios -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <!-- Script del Slider -->
+
+  <script>
+    $(document).ready(function () {
+      $(".slider").bxSlider({
+        mode: "fade",
+        auto: true,
+        responsive: true,
+      });
+    });
+  </script>
+
+  <!-- Script de los datos de cotizacion -->
+
+  <script src="./app.js"></script>
+
+
+
+</head>
+
+<body>
+  <!-- Comienzo de la Navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <img class="mainlogo" src="Recursos/Imagenes/Agro Leben Junín logo-1.png" />
+      <a class="navbar-brand ms-2" href="./index.html">Agro leben junin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">La Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Final de la Navegacion -->
+  <div class="separador"></div>
+  <!-- Comienzo del contenido -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="my-5">
+          <div class="clima">
+            <!-- weather widget start -->
+            <a target="_blank" href="https://hotelmix.es/weather/junin-55942">
+              <img
+                src="https://w.bookcdn.com/weather/picture/32_55942_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=89288"
+                alt="booked.net" class="clima-imagen" /></a>
+            <!-- weather widget end -->
+          </div>
+
+          <div class="datasos">
+            <div class="datos-titilo">
+              <p class="dt-tt">COTIZACIONES</p>
+            </div>
+
+            <div class="dt">
+              <p class="dt-clv">Maiz: </p>
+              <p class="dt-vl" id="maiz"></p>
+            </div>
+            <hr>
+            <div class="dt">
+              <p class="dt-clv">Soja: </p>
+              <p class="dt-vl" id="soja"></p>
+            </div>
+            <hr>
+            <div class="dt">
+              <p class="dt-clv">Dolar: </hp>
+              <p class="dt-vl" id="tc"></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-10">
+
+        <!-- SLIDER -->
+
+        <div class="container py-5">
+          <div style="max-width: 80%; margin-left: auto; margin-right: auto">
+            <div class="slider">
+              <div><a class="links" href="https://climatefieldview.com.ar/" target="_blank"><img
+                    src="./Recursos/Imagenes/Slider -1.png" alt="" /></a></div>
+              <a href="https://climatefieldview.com.ar/" target="_blank"><img src="./Recursos/Imagenes/Slider -2.png"
+                  alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="separador-2"></div>
+        <!-- PROVEEDORES -->
+
+        <div class="container">
+          <div id="Productos">
+            <div class="container cabeceraproductos" style="margin-bottom: 8%;">
+              <img class="innobalogo" src="./Recursos/Imagenes/Logo_Sitio_InnoBa_Horizontal_01.svg" alt="Logo Innoba"
+                width="300" height="auto" style="margin-top: 20px" />
+
+              <div class="Prod-text">
+                <p>
+                  Como centro de soluciones Innoba contamos con las mejores <br>
+                  condiciones en todos los productos de las siguientes lineas
+                </p>
+
+              </div>
+            </div>
+
+
+            <div class="linea-innoba">
+              <a href="https://conosur.bayer.com/Acerca-de-Bayer/Nuestra-Regi%C3%B3n/Argentina" target="_blank">
+                <div class="logo-card">
+                  <img class="logo-logo" src="./Recursos/Imagenes/Logos/Bayer.png" alt="Logo Bayer">
+                </div>
+              </a>
+
+              <a href="http://www.roundupreadyplus.com.ar/" target="_blank">
+                <div class="logo-card">
+                  <img class="logo-logo" src="./Recursos/Imagenes/Logos/Roundup.png" alt="Logo Roundup">
+                </div>
+              </a>
+
+              <a href="https://climatefieldview.com.ar/" target="_blank">
+                <div class="logo-card">
+                  <img class="logo-logo" src="./Recursos/Imagenes/Logos/Field view.png" alt="Logo Field view">
+                </div>
+              </a>
+
+              <a href="https://www.intactarr2pro.com.ar/" target="_blank">
+                <div class="logo-card">
+                  <img class="logo-logo" src="./Recursos/Imagenes/Logos/Intacta.png" alt="Logo Intacta">
+                </div>
+              </a>
+
+              <a href="https://www.dekalb.com.ar/" target="_blank">
+                <div class="logo-card">
+                  <img class="logo-logo" src="./Recursos/Imagenes/Logos/Dekalb.png" alt="Logo Dekalb">
+                </div>
+              </a>
+
+              <a href="https://www.asgrow.com.ar/" target="_blank">
+                <div class="logo-card">
+                  <img class="logo-logo" src="./Recursos/Imagenes/Logos/Asgrow.png" alt="Logo Asgrow">
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="separador-2"></div>
+        <div class="container" style="margin-left: 2%;">
+          <div id="Proveedores" style="margin-right: 10%;">
+            <div class="logos">
+              <div class="otras-lineas">
+
+                <a href="https://albaugh.com.ar/" target="_blank">
+                  <div>
+                    <img class="logo-2" src="./Recursos/Imagenes/Logos/Atanor.png" alt="Logo Atanor">
+                  </div>
+                </a>
+
+                <a href="https://www.gleba.com.ar/" target="_blank">
+                  <div>
+                    <img class="logo-2" src="./Recursos/Imagenes/Logos/Gleba.png" alt="Logo Gleba">
+                  </div>
+                </a>
+
+                <a href="https://sipcam.com.ar/" target="_blank">
+                  <div>
+                    <img class="logo-2" src="./Recursos/Imagenes/Logos/Sipcam.png" alt="Logo Sipcam">
+                  </div>
+                </a>
+
+                <a href="http://www.lanther.com.ar/" target="_blank">
+                  <div>
+                    <img class="logo-2" src="./Recursos/Imagenes/Logos/Lantern.png" alt="Logo Lantern">
+                  </div>
+                </a>
+
+                <a href="https://ar.timacagro.com/" target="_blank">
+                  <div>
+                    <img class="logo-2 logo-2-ch" src="./Recursos/Imagenes/Logos/Timac.png" alt="Logo Timac">
+                  </div>
+                </a>
+
+                <a href="https://stoller.com.ar/" target="_blank">
+                  <div>
+                    <img class="logo-2 logo-2-ch" src="./Recursos/Imagenes/Logos/Stoller.png" alt="Logo Stoller">
+                  </div>
+                </a>
+
+                <a href="https://alltecbio.com/" target="_blank">
+                  <div>
+                    <img class="logo-2 logo-2-ch" src="./Recursos/Imagenes/Logos/Alltec.png" alt="Logo Alltec">
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+    <div class="separador-ft"></div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 mt-3"><img class="fotlogo" src="Recursos/Imagenes/Agro Leben Junín logo-1.png" /></div>
+          <div class="col-4 mt-3">
+            <p>® Agro leben junin</p>
+          </div>
+        
+         
+          <div class="col-4">
+            <a class="climafot" target="_blank" href="https://hotelmix.es/weather/junin-55942"><img src="https://w.bookcdn.com/weather/picture/21_55942_1_4_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=124&domid=582&anc_id=94944"  alt="booked.net"/></a>
+            <div class="datasos-ch">
+              <div class="datos-titilo">
+                <p class="dt-tt">Dolar</p>
+                <p class="dt-vl" id="tc2"></p>
+              </div>
+
+  
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </footer>
+  </div>
+
+
+
+
+
+
+  <!-- Scripts -->
+
+  <!-- Scripts de bootstrap -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <!--Final de Scrips de bootstrap-->
+</body>
+
+</html>
